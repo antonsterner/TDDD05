@@ -1,20 +1,20 @@
 
 public class Account {
 
-	private int balance;
+	private double balance;
 	
-	Account(int initialBalance) {
+	Account(double initialBalance) {
 		balance = initialBalance;
 	}
-	public void increase (int amount) {
+	public void increase (double amount) {
 		this.balance += amount;
 	}
 			
-	public void decrease (int amount) {
+	public void decrease (double amount) {
 		this.balance -= amount;
 	}
 
-	public int getBalance() {
+	public double getBalance() {
 		return balance;
 	}
 }
